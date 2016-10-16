@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.navplustab.TabFragment1"
+    >
+
+
+
+
+
+    <TextView
+        android:id="@+id/random_pick_output_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tab No. 1"
+        android:layout_alignParentTop="true"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--android:theme="@style/AppTheme.Picker"-->
+
+
+    <!--<TextView--><!--android:id="@+id/dice_text_view"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:text="Dice: 0"--><!--android:textSize="20sp"--><!--android:layout_above="@+id/dice_spinner"--><!--android:layout_toRightOf="@+id/linear_layout_for_dice"--><!--android:layout_toEndOf="@+id/linear_layout_for_dice" />-->
+
+    <!--<NumberPicker--><!--android:id="@+id/dice_spinner"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentRight="true"--><!--android:layout_alignParentEnd="true"--><!--android:layout_alignParentBottom="true"--><!--android:layout_above="@id/fab"--><!--/>-->
+
+
+    <!--&lt;!&ndash;<ScrollView&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="match_parent"&ndash;&gt;--><!--&lt;!&ndash;android:layout_alignParentLeft="true"&ndash;&gt;--><!--&lt;!&ndash;android:layout_below="@id/generator_type_spinner">&ndash;&gt;-->
+
+    <!--<RelativeLayout--><!--android:id="@+id/linear_layout_for_dice"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_toLeftOf="@id/dice_spinner"--><!--android:layout_marginRight="20px">-->
+
+    <!--<FrameLayout--><!--android:id="@+id/fragment_place"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_centerInParent="true"--><!--android:focusable="true"--><!--android:focusableInTouchMode="true"--><!--android:animateLayoutChanges="true"--><!--/>-->
+
+    <!--</RelativeLayout>-->
+
+    <!--&lt;!&ndash;</ScrollView>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Button&ndash;&gt;--><!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;--><!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;--><!--&lt;!&ndash;android:layout_centerHorizontal="true"&ndash;&gt;--><!--&lt;!&ndash;android:text="Roll Dice"&ndash;&gt;--><!--&lt;!&ndash;android:onClick="onRollDice"/>&ndash;&gt;-->
